@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "189371556553",
+    "firebase_url": "https://fir-ticketing.firebaseio.com",
+    "project_id": "firebase-ticketing",
+    "storage_bucket": "firebase-ticketing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189371556553:android:4ce845d081a2b870",
+        "android_client_info": {
+          "package_name": "com.waseem.ticketing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189371556553-dsanu96j943vu8757vt1b9r921p9381i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waseem.ticketing",
+            "certificate_hash": "8239228db49241e31b7af2096f4b6b9ccc672536"
+          }
+        },
+        {
+          "client_id": "189371556553-6adikpf894ajl8cijfei9jnq1ehkm69m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waseem.ticketing",
+            "certificate_hash": "69f721c597c2e3640f112f79016915924d6a6024"
+          }
+        },
+        {
+          "client_id": "189371556553-6nehfb8drqi4lt8ncchnnm7mb3287g1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU1fAZO7QP3ZhAr9bzoX_Eiuw3BW0B0ck"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

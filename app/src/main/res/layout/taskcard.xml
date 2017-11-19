@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        card_view:cardBackgroundColor="?attr/colorAccent"
+        card_view:cardCornerRadius="@dimen/cardview_compat_inset_shadow"
+        card_view:cardElevation="2dp"
+        card_view:contentPadding="@dimen/cardview_default_elevation">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tasktext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="TextView"
+                android:textColor="@color/primary_text"
+                android:textSize="24sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/tasknametext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="TextView"
+                android:textColor="@color/primary_text"
+                android:textSize="24sp"
+                android:typeface="normal"
+                android:layout_below="@+id/tasktext"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="13dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

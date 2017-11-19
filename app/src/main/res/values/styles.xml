@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:progressBarStyle">@android:style/Widget.Material.Light.ProgressBar.Large.Inverse</item>
+
+
+        <item name="android:textViewStyle">@style/MainTheme</item>
+        <item name="android:textAppearance">@style/MainTheme</item>
+        <item name="android:buttonStyle">@style/MainTheme</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:editTextStyle">@style/MainTheme</item>
+        <item name="android:colorAccent">?attr/colorAccent</item>
+        <item name="android:colorPrimaryDark">?attr/colorPrimaryDark</item>
+        <item name="android:colorPrimary">?attr/colorPrimary</item>
+        <item name="android:colorBackground">@color/cardview_dark_background</item>
+
+
+    </style>
+
+</resources>
